@@ -37,7 +37,7 @@ which git
 
 ```
 ### Paso 8: Configurar Jenkins Tools    
-Ingresar a "Administrar Jenkins" -> "Configurar el sistema" -> "Herramientas Globales"
+Ingresar a "Manage Jenkins" -> "System Configuration" -> "Tools"
 
 <img src="images/jenkins_tools_1.png" alt="Jenkins Tools" width="600"/>
 <img src="images/jenkins_tools_2.png" alt="Jenkins Tools" width="600"/>
