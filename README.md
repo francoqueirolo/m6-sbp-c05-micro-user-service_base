@@ -36,5 +36,13 @@ dirname $(dirname $(readlink -f $(which mvn)))
 which git
 
 ```
-    
+### Paso 8: Configurar Jenkins Tools    
+Ingresar a "Administrar Jenkins" -> "Configurar el sistema" -> "Herramientas Globales"
+
+<img src="images/jenkins_tools_1.png" alt="Jenkins Tools" width="600"/>
+<img src="images/jenkins_tools_2.png" alt="Jenkins Tools" width="600"/>
+<img src="images/jenkins_tools_3.png" alt="Jenkins Tools" width="600"/>
+
+
+
 
