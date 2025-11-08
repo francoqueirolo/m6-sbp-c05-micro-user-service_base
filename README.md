@@ -67,6 +67,8 @@ pipeline {
     }
 }
   
+<img src="images/pipeline_configure.png" alt="Jenkins Pipeline Configure" width="600"/>
+  
 ```
 ### Paso 11: Ejecutar el pipeline
 - Hacer clic en "Build Now"
