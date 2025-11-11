@@ -8,7 +8,7 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Checkout') {
+        stage('Compile') {
             steps {
                 echo 'Compile the project'
                 sh 'mvn clean compile'
