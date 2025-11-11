@@ -131,7 +131,14 @@ pipeline {
                 sh 'mvn package -DskipTests'
             }
         }
-
+        post {
+            success {
+                echo 'Build completed successfully!'
+            }
+            failure {
+                echo 'Build failed. Please check the logs.'
+            }
+        }
     }
 
 }
