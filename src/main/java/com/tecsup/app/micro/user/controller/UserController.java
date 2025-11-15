@@ -20,6 +20,10 @@ public class UserController {
 
     private final UserService userService;
 
+    /**
+     *
+     * @return
+     */
     @GetMapping
     public List<User> getAllUsers() {
         log.info("REST request to get all users");
