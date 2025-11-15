@@ -26,7 +26,11 @@ public class UserController {
         return userService.getAllUsers();
     }
 
-
+    /**
+     *
+     * @param id
+     * @return
+     */
     @GetMapping("/{id}")
     public ResponseEntity<User> getUserById(@PathVariable Long id) {
         log.info("REST request to get user by id: {}", id);
